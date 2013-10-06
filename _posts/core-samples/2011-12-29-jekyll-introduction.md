@@ -18,7 +18,7 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 
 ### Examples
 
-This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
+This website is created with Jekyll.
 
 
 
@@ -122,13 +122,13 @@ Jekyll expects your website directory to be laid out like so:
 	The assets folder represents _any generic_ folder you happen to create in your root directory.
 	Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.
 
-(read more: <https://github.com/mojombo/jekyll/wiki/Usage>)
+
 
 
 ### Jekyll Configuration
 
 Jekyll supports various configuration options that are fully outlined here:
-<https://github.com/mojombo/jekyll/wiki/Configuration>
+<http://github.com/mojombo/jekyll/wiki/Configuration>
 
 
 
@@ -151,7 +151,7 @@ Posts are created by properly formatting a file and placing it the `_posts` fold
 **Formatting**  
 A post must have a valid filename in the form `YEAR-MONTH-DATE-title.MARKUP` and be placed in the `_posts` directory. 
 If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
-Additionally, each file must have [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) prepended to its content.
+Additionally, each file must have [YAML Front-Matter](http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) prepended to its content.
 YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.
 
 **Order**  
@@ -186,7 +186,7 @@ You won't find "lessons" and "beginner" as two separate categories unless you de
 Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do _not_ start with an underscore.
 
 **Formatting**  
-In order to register as a Jekyll page the file must contain [YAML Front-Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter).
+In order to register as a Jekyll page the file must contain [YAML Front-Matter](http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter).
 Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the `site.pages` array for inclusion into your templates.
 
 **Categories and Tags**  
@@ -266,7 +266,7 @@ This is mainly due to the fact that Jekyll templates must use the Liquid Templat
 
 ### What is Liquid?
 
-[Liquid](https://github.com/Shopify/liquid) is a secure templating language developed by [Shopify](http://shopify.com).
+[Liquid](http://github.com/Shopify/liquid) is a secure templating language developed by [Shopify](http://shopify.com).
 Liquid is designed for end-users to be able to execute logic within template files 
 without imposing any security risk on the hosting server.
 
@@ -349,7 +349,7 @@ Three hyphens on a new line start the Front-Matter block and three hyphens on a 
 The data inside the block must be valid YAML.
 
 Configuration parameters for YAML Front-Matter is outlined here:
-[A comprehensive explanation of YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
+[A comprehensive explanation of YAML Front Matter](http://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
 
 #### Defining Layouts for Posts and Templates Parsing.
 
@@ -395,7 +395,7 @@ Remember, in Jekyll you are an end-user. Your API has only two components:
 2. The liquid syntax and variables passed into the liquid templates.
 
 All the data objects available to you in the templates via Liquid are outlined in the **API Section** of Jekyll-Bootstrap.
-You can also read the original documentation here: <https://github.com/mojombo/jekyll/wiki/Template-Data>
+You can also read the original documentation here: <http://github.com/mojombo/jekyll/wiki/Template-Data>
 
 ## Conclusion
 
