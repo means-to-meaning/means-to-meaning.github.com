@@ -18,6 +18,4 @@ Given a group of objects such as chocolate bars, which can be either dark chocol
 Given a population of a finite size $N$ with an underlying binomial distribution, what is the minimal sample size $n$, in order to obtain an estimate which is within an error margin $l$ from the true distribution parameter $p$ with 90% probability using a simple random sample.
 
 #### the really Formal description:
-Given population `$X_1,\ldots, X_N,\; N \in \mathcal{N}$`
-
-    $X_1,\ldots, X_N,\; N \in \mathcal{N}$
+Given population $X_1,\ldots, X_N,\; N \in \mathbb{N}$
