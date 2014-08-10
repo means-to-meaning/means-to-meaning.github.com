@@ -160,6 +160,8 @@ a:visited { color: #205caa; }
   display: block;
   font-size: 15px;
   color: #818181;
+  display: inline;
+  margin-left: 10px;
 }
 
 
