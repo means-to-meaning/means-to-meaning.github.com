@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog with Knitr and Jekyll"
+title: "Test post of an RMarkdown"
 description: ""
 category: r
 tags: [knitr, jekyll, tutorial]
