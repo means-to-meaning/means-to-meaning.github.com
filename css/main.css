@@ -34,6 +34,12 @@ a:visited { color: #205caa; }
   zoom: 1;
 }
 
+/* added for centering R figures in the middle */
+[alt="center"] {
+  display: block;
+  margin: auto;
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -193,6 +199,10 @@ padding-left: 20px;
 
 .post-content > * { margin: 20px 0; }
 
+.post-content img {
+  display: block;
+  margin: auto;
+}
 
 .post-content h1,
 .post-content h2,
