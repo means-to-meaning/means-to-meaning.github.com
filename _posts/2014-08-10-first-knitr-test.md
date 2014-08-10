@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Blog with Knitr and Jekyll"
+title: "Blog post from RMarkdown"
 description: ""
 category: r
 tags: [knitr, jekyll, tutorial]
 ---
 
-This test post is cloned from Jason C Fischer's http://jfisher-usgs.github.io/. Here is some test $$\LaTeX$$ stuff. and also including the MathJax syntax \\(x_i\\). For jekyll, the standard latex syntax needs to be doubled, i.e. the above is achieved using "\\(x_i)\\".
+This test post is cloned from Jason C Fischer's http://jfisher-usgs.github.io/. Here is some test $$\LaTeX$$ stuff. and also including the MathJax syntax \\(x_i\\). For jekyll, the standard latex syntax needs to be doubled, i.e. the above is achieved using "\\\\(x_i)\\\\".
 
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
