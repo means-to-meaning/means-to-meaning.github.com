@@ -6,12 +6,15 @@ category: r
 tags: [knitr, jekyll, tutorial]
 ---
 
+This test post is cloned from Jason C Fischer's http://jfisher-usgs.github.io/. Here is some test $$\LaTeX$$ stuff. and also including the MathJax syntax \\(x_i\\). For jekyll, the standard latex syntax needs to be doubled, i.e. the above is achieved using "\\(x_i)\\".
+
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
 blog post. The only required input is an **R Markdown** source file. 
 The name of the source file used to generate this post is *2012-07-03-knitr-jekyll.Rmd*, available
 [here](https://github.com/jfisher-usgs/jfisher-usgs.github.com/blob/master/Rmd/2012-07-03-knitr-jekyll.Rmd).
 Steps taken to build this post are as follows:
+
 
 ### Step 1
 

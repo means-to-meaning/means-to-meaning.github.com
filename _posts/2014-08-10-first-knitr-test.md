@@ -1,18 +1,20 @@
 ---
 layout: post
-title: "Test post of an RMarkdown"
+title: "Blog with Knitr and Jekyll"
 description: ""
 category: r
 tags: [knitr, jekyll, tutorial]
 ---
 
-This is a test post of RMarkdown cloned from Jason C Fischer's http://jfisher-usgs.github.io/.
+This test post is cloned from Jason C Fischer's http://jfisher-usgs.github.io/. Here is some test $$\LaTeX$$ stuff. and also including the MathJax syntax \\(x_i\\). For jekyll, the standard latex syntax needs to be doubled, i.e. the above is achieved using "\\(x_i)\\".
+
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
 blog post. The only required input is an **R Markdown** source file. 
 The name of the source file used to generate this post is *2012-07-03-knitr-jekyll.Rmd*, available
 [here](https://github.com/jfisher-usgs/jfisher-usgs.github.com/blob/master/Rmd/2012-07-03-knitr-jekyll.Rmd).
 Steps taken to build this post are as follows:
+
 
 ### Step 1
 
@@ -84,7 +86,7 @@ par(mar = c(4, 4, 0.1, 0.1), omi = c(0, 0, 0, 0))
 plot(cars)
 {% endhighlight %}
 
-![center](/figs/2014-08-10-firt-knitr-test/fig1.png) 
+![center](/figs/2014-08-10-first-knitr-test/fig1.png) 
 ##### Figure 1: Caption
 
 
@@ -93,7 +95,7 @@ par(mar = c(2.5, 2.5, 0.5, 0.1), omi = c(0, 0, 0, 0))
 filled.contour(volcano)
 {% endhighlight %}
 
-![center](/figs/2014-08-10-firt-knitr-test/fig2.png) 
+![center](/figs/2014-08-10-first-knitr-test/fig2.png) 
 ##### Figure 2: Caption
 
 And don't forget your session information for proper reproducible research.
@@ -112,7 +114,7 @@ sessionInfo()
 ## [1] C/UTF-8/C/C/C/C
 ## 
 ## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## [1] stats     graphics  grDevices utils     datasets  base     
 ## 
 ## other attached packages:
 ## [1] knitr_1.6
