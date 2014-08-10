@@ -6,6 +6,7 @@ category: r
 tags: [knitr, jekyll, tutorial]
 ---
 
+This is a test post of RMarkdown cloned from Jason C Fischer's http://jfisher-usgs.github.io/.
 The [knitr](http://yihui.name/knitr/) package provides an easy way to embed 
 [R](http://www.r-project.org/) code in a [Jekyll-Bootstrap](http://jekyllbootstrap.com/) 
 blog post. The only required input is an **R Markdown** source file. 
