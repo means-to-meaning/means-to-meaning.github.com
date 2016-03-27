@@ -10,10 +10,11 @@ One of the most common problems in inferential statistics involves determining w
 
 The crux of the problem lies in the fact that the means of the two groups $\hat{x}$ and $\hat{y}$ are calculated using sample data, and as such, they are only estimates of the true population means $\mu_x$ and $\mu_y$ (think of the true population as all apple and pear trees in the world). Repeating the exercise in your neihbours garden would lead to different estimates of $\hat{x} - \hat{y}$, which is why statistics is required to make a statement about the "true" difference $\mu_x - \mu_y$ (between the two populations).
 
-In practice there are many questions. What to do if the sample data is not normally distributed? Should we only care about the differences in the mean, or consider variance as well? There are statistical tests for everything, normality, equality of variance (homoskedasticity), but isn't that multiple testing? And what about statistical power?
+In practice there are many questions. What to do if the sample data is not normally distributed? Should we only care about the differences in the mean, or consider variance as well? There are statistical tests for almost everything, normality, equality of variance (homoskedasticity), but isn't that multiple testing? And what about statistical power?
 
-I would like to resolve the above doubts through a series of questions.
-Can we assume the sample data has Normal distribution? Two sample t-test.
+Let's see whether we can break this down. Can we assume the sample data has Normal distribution? 
+
+Two sample t-test.
 The classic two-sample t-test assumes that the data is an i.i.d. sample from an approximately normal distribution with equal variance: $X_i \sim \mathcal{N}(\mu_x, \sigma^2)$ and $Y_i \sim \mathcal{N}(\mu_y, \sigma^2)$. The Welch test softens the requirement of equal variance between the groups by allowing a distinct $\sigma^2_x$ for apples and $\sigma^2_y$ for pears. However, both these tests are only useful if the underlying distribution is approximately normal.
 
 If the data is non-normal, can we assume that the two samples have the same distribution form?
