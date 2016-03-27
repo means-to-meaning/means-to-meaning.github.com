@@ -10,3 +10,4 @@ github_username:  senorsalchicha
 markdown: kramdown
 permalink: pretty
 pygment: true
+highlighter: rouge
